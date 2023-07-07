@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#flights-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+#flights-table th {
+  background-color: #330099;
+  color: white;
+}
+
+#flights-table th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#flights-table th:nth-child(1) {
+  width: 15%;
+}
+
+#flights-table th:nth-child(2) {
+  width: 35%;
+}
+
+#flights-table th:nth-child(3),
+#flights-table th:nth-child(4),
+#flights-table th:nth-child(5) {
+  width: 20%;
+}
+
+#progress-bar {
+  background-color: black;
+  height: 10px;
+  margin-bottom: 10px;
+}
+
+#clock {
+  text-align: right;
+}
